@@ -17,3 +17,7 @@ function calculate(){
 }
 
 }
+
+function Remove(input) {
+    display.value=display.value.toString().slice(0,-1);
+}
